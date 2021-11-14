@@ -1,0 +1,10 @@
+
+var dataHtml  = JSON.parse(data);
+//console.log(dataHtml[0].name);
+
+var pid = document.getElementById('test');
+pid.innerHtml = dataHtml[0].name;
+//document.getElementById("showdata").value = dataHtml[0].name;
+console.log(pid.textContent);
+   
+//alert(dataHtml[0].name);
